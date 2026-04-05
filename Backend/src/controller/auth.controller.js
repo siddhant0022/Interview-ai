@@ -90,7 +90,7 @@ async function LogoutUserController(req, res){
 
 async function getMeController(req, res) {
 
-    const user = await userModel.findById(req.user.id)
+    const user = await UserModel.findById(req.user.id)
 
 
 
